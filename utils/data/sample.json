@@ -1,0 +1,57 @@
+[
+  {
+    "brand": "Tata",
+    "model": "Altroz",
+    "variant": "XZ+S LUX 1.2, Petrol",
+    "engine": {
+      "engine_type": "Petrol",
+      "capacity": "1199 cc",
+      "power": "88 HP",
+      "torque": "115 Nm"
+    },
+    "transmission": "5 Speed MT",
+    "dimensions": {
+      "length": "3990 mm",
+      "width": "1755 mm",
+      "height": "1523 mm",
+      "wheelbase": "2501 mm"
+    },
+    "seating_capacity": 5,
+    "boot_space": "345 L",
+    "price": {
+      "ex_showroom": "₹9,19,990"
+    },
+    "img": {
+      "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/altroz/year-2023/ice/xz-plus-os/arcade-grey/main-images/arcade-grey-left.png",
+      "alt": "Tata Altroz arcade grey"
+    }
+  },
+  {
+    "brand": "Tata",
+    "model": "Harrier",
+    "variant": "Fearless + DK (AT), Diesel",
+    "year": 2023,
+    "engine": {
+      "engine_type": "Diesel",
+      "capacity": "1956 cc",
+      "power": "170 HP",
+      "torque": "350 Nm"
+    },
+    "transmission": "6 Speed AT",
+    "dimensions": {
+      "length": "4605 mm",
+      "width": "1922 mm",
+      "height": "1718 mm",
+      "wheelbase": "2741 mm"
+    },
+    "seating_capacity": 5,
+    "boot_space": "445 L",
+    "price": {
+      "ex_showroom": "₹26,24,990"
+    },
+    "img": {
+      "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/harrier/year-2024/ice/fearless-plus-dt-mt/lunar-white/main-images/lunar-white-left.png",
+      "alt": "Tata Harrier lunar white"
+    }
+  }
+]
