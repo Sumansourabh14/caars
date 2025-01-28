@@ -25,6 +25,23 @@ const postCarData = asyncHandler(async (req, res, next) => {
   res.status(201).json({ success: true, data: carDetails });
 });
 
+const updateCarData = asyncHandler(async (req, res, next) => {
+  const { id } = req.params;
+  const payload = req.body;
+
+  const carDetails = await CarModel.findByIdAndUpdate(id, payload, {
+    new: true,
+    runValidators: true,
+  });
+
+  if (!carDetails) {
+    res.status(404);
+    throw new Error("Car data not found");
+  }
+
+  res.status(200).json({ success: true, updatedData: carDetails });
+});
+
 const postCarDataInBulk = asyncHandler(async (req, res, next) => {
   const payload = req.body;
 
@@ -42,4 +59,4 @@ const postCarDataInBulk = asyncHandler(async (req, res, next) => {
   });
 });
 
-module.exports = { getAllCars, postCarData, postCarDataInBulk };
+module.exports = { getAllCars, postCarData, postCarDataInBulk, updateCarData };
