@@ -1,6 +1,12 @@
 const asyncHandler = require("express-async-handler");
 const { CarModel } = require("../models/carModel");
 
+const getAllCars = asyncHandler(async (req, res, next) => {
+  const caars = await CarModel.find();
+
+  res.status(200).json({ success: true, data: caars, total: caars.length });
+});
+
 const postCarData = asyncHandler(async (req, res, next) => {
   const payload = req.body;
 
@@ -36,4 +42,4 @@ const postCarDataInBulk = asyncHandler(async (req, res, next) => {
   });
 });
 
-module.exports = { postCarData, postCarDataInBulk };
+module.exports = { getAllCars, postCarData, postCarDataInBulk };
