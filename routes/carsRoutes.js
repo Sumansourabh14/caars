@@ -4,9 +4,11 @@ const {
   postCarDataInBulk,
   getAllCars,
   updateCarData,
+  getCar,
 } = require("../controllers/carsController");
 const router = express.Router();
 
+router.get("/single/:id", getCar);
 router.get("/all", getAllCars);
 router.post("/add", postCarData);
 router.patch("/update/:id", updateCarData);

@@ -7,6 +7,19 @@ const getAllCars = asyncHandler(async (req, res, next) => {
   res.status(200).json({ success: true, data: caars, total: caars.length });
 });
 
+const getCar = asyncHandler(async (req, res, next) => {
+  const { id } = req.params;
+
+  const car = await CarModel.findById(id);
+
+  if (!car) {
+    res.status(404);
+    throw new Error("No car was found with the given id");
+  }
+
+  res.status(200).json({ success: true, data: car });
+});
+
 const postCarData = asyncHandler(async (req, res, next) => {
   const payload = req.body;
 
@@ -59,4 +72,10 @@ const postCarDataInBulk = asyncHandler(async (req, res, next) => {
   });
 });
 
-module.exports = { getAllCars, postCarData, postCarDataInBulk, updateCarData };
+module.exports = {
+  getCar,
+  getAllCars,
+  postCarData,
+  postCarDataInBulk,
+  updateCarData,
+};
