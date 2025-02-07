@@ -79,6 +79,32 @@ const carSchema = new mongoose.Schema(
         type: String,
         required: true,
       },
+      city: {
+        type: String,
+        default: "Bengaluru",
+      },
+    },
+    safety: {
+      globalncap: {
+        adult: {
+          type: Number,
+          default: null,
+        },
+        child: {
+          type: Number,
+          default: null,
+        },
+      },
+      bharatncap: {
+        adult: {
+          type: Number,
+          default: null,
+        },
+        child: {
+          type: Number,
+          default: null,
+        },
+      },
     },
   },
   { timestamps: true }
