@@ -15,7 +15,6 @@ const carSchema = new mongoose.Schema(
     },
     year: {
       type: Number,
-      default: null,
     },
     img: {
       url: {
@@ -24,45 +23,62 @@ const carSchema = new mongoose.Schema(
       alt: {
         type: String,
         default: "",
+        trim: true,
       },
     },
     engine: {
       engine_type: {
         type: String,
-        required: true,
       },
       capacity: {
-        type: String,
-        required: true,
+        value: { type: Number, required: true },
+        unit: { type: String, default: "cc" },
       },
       power: {
-        type: String,
-        required: true,
+        value: { type: Number, required: true },
+        unit: { type: String, default: "hp" },
       },
       torque: {
-        type: String,
-        required: true,
+        value: { type: Number, required: true },
+        unit: { type: String, default: "Nm" },
       },
     },
     transmission: {
       type: String,
       required: true,
+      enum: [
+        "Manual",
+        "Automatic",
+        "AMT",
+        "CVT",
+        "iVT",
+        "DCT",
+        "DCA",
+        "iMT",
+        "eCVT",
+        "Single Speed",
+      ],
+    },
+    fuel_type: {
+      type: String,
+      enum: ["Petrol", "Diesel", "CNG", "Electric", "Hybrid"],
+      required: true,
     },
     dimensions: {
       length: {
-        type: String,
+        type: Number,
         required: true,
       },
       width: {
-        type: String,
+        type: Number,
         required: true,
       },
       height: {
-        type: String,
+        type: Number,
         required: true,
       },
       wheelbase: {
-        type: String,
+        type: Number,
         required: true,
       },
     },
@@ -71,12 +87,12 @@ const carSchema = new mongoose.Schema(
       required: true,
     },
     boot_space: {
-      type: String,
+      type: Number,
       required: true,
     },
     price: {
       ex_showroom: {
-        type: String,
+        type: Number,
         required: true,
       },
       city: {
@@ -88,21 +104,17 @@ const carSchema = new mongoose.Schema(
       globalncap: {
         adult: {
           type: Number,
-          default: null,
         },
         child: {
           type: Number,
-          default: null,
         },
       },
       bharatncap: {
         adult: {
           type: Number,
-          default: null,
         },
         child: {
           type: Number,
-          default: null,
         },
       },
     },
