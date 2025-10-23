@@ -27,21 +27,10 @@ const carSchema = new mongoose.Schema(
       },
     },
     engine: {
-      engine_type: {
-        type: String,
-      },
-      capacity: {
-        value: { type: Number, required: true },
-        unit: { type: String, default: "cc" },
-      },
-      power: {
-        value: { type: Number, required: true },
-        unit: { type: String, default: "hp" },
-      },
-      torque: {
-        value: { type: Number, required: true },
-        unit: { type: String, default: "Nm" },
-      },
+      engine_type: { type: String },
+      capacity: { type: Number, required: true },
+      power: { type: Number, required: true },
+      torque: { type: Number, required: true },
     },
     transmission: {
       type: String,
@@ -80,6 +69,9 @@ const carSchema = new mongoose.Schema(
       wheelbase: {
         type: Number,
         required: true,
+      },
+      ground_clearance: {
+        type: Number,
       },
     },
     seating_capacity: {

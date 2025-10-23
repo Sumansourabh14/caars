@@ -1,57 +1,522 @@
-[
-  {
-    "brand": "Tata",
-    "model": "Altroz",
-    "variant": "XZ+S LUX 1.2, Petrol",
-    "engine": {
-      "engine_type": "Petrol",
-      "capacity": "1199 cc",
-      "power": "88 HP",
-      "torque": "115 Nm"
+{
+  "success": true,
+  "data": [
+    {
+      "img": {
+        "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/altroz/year-2023/ice/xz-plus-os/arcade-grey/main-images/arcade-grey-left.png",
+        "alt": "Tata Altroz arcade grey"
+      },
+      "engine": {
+        "engine_type": "Petrol",
+        "capacity": "1199 cc",
+        "power": "88 HP",
+        "torque": "115 Nm"
+      },
+      "dimensions": {
+        "length": "3990 mm",
+        "width": "1755 mm",
+        "height": "1523 mm",
+        "wheelbase": "2501 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹9,19,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67968432dfb08af940cab9c4",
+      "brand": "Tata",
+      "model": "Altroz",
+      "variant": "XZ+S LUX 1.2, Petrol",
+      "year": null,
+      "transmission": "5 Speed MT",
+      "seating_capacity": 5,
+      "boot_space": "345 L",
+      "__v": 0,
+      "createdAt": "2025-01-26T18:51:30.746Z",
+      "updatedAt": "2025-01-26T18:51:30.746Z"
     },
-    "transmission": "5 Speed MT",
-    "dimensions": {
-      "length": "3990 mm",
-      "width": "1755 mm",
-      "height": "1523 mm",
-      "wheelbase": "2501 mm"
+    {
+      "img": {
+        "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/harrier/year-2024/ice/fearless-plus-dt-mt/lunar-white/main-images/lunar-white-left.png",
+        "alt": "Tata Harrier lunar white"
+      },
+      "engine": {
+        "engine_type": "Diesel",
+        "capacity": "1956 cc",
+        "power": "170 HP",
+        "torque": "350 Nm"
+      },
+      "dimensions": {
+        "length": "4605 mm",
+        "width": "1922 mm",
+        "height": "1718 mm",
+        "wheelbase": "2741 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹26,24,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67968432dfb08af940cab9c5",
+      "brand": "Tata",
+      "model": "Harrier",
+      "variant": "Fearless + DK (AT), Diesel",
+      "year": 2023,
+      "transmission": "6 Speed AT",
+      "seating_capacity": 5,
+      "boot_space": "445 L",
+      "__v": 0,
+      "createdAt": "2025-01-26T18:51:30.747Z",
+      "updatedAt": "2025-01-26T18:51:30.747Z"
     },
-    "seating_capacity": 5,
-    "boot_space": "345 L",
-    "price": {
-      "ex_showroom": "₹9,19,990"
+    {
+      "img": {
+        "url": "https://s7ap1.scene7.com/is/image/tatamotors/Oberonblack-0?$PO-750-500-S$&fit=crop&fmt=webp-alpha",
+        "alt": "Tata Altroz dark"
+      },
+      "engine": {
+        "engine_type": "Petrol",
+        "capacity": "1199 cc",
+        "power": "88 HP",
+        "torque": "115 Nm"
+      },
+      "dimensions": {
+        "length": "3990 mm",
+        "width": "1755 mm",
+        "height": "1523 mm",
+        "wheelbase": "2501 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹10,99,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67992aafbb707ca60faff6dd",
+      "brand": "Tata",
+      "model": "Altroz #DARK",
+      "variant": "XZA+S LUX 1.2 P DK, Petrol",
+      "year": null,
+      "transmission": "6 Speed DCA",
+      "seating_capacity": 5,
+      "boot_space": "345 L",
+      "createdAt": "2025-01-28T19:06:23.934Z",
+      "updatedAt": "2025-01-28T19:22:26.504Z",
+      "__v": 0
     },
-    "img": {
-      "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/altroz/year-2023/ice/xz-plus-os/arcade-grey/main-images/arcade-grey-left.png",
-      "alt": "Tata Altroz arcade grey"
+    {
+      "img": {
+        "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/safari/year-2024/ice/accomplished-plus-dk-at/oberon-black/main-images/oberon-black-left.png",
+        "alt": "Tata Safari dark"
+      },
+      "engine": {
+        "engine_type": "Diesel",
+        "capacity": "1956 cc",
+        "power": "170 HP",
+        "torque": "350 Nm"
+      },
+      "dimensions": {
+        "length": "4668 mm",
+        "width": "1922 mm",
+        "height": "1795 mm",
+        "wheelbase": "2741 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹26,89,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "679a455e1ef6c49e458b088e",
+      "brand": "Tata",
+      "model": "Safari #DARK",
+      "variant": "Accomplished + DK (AT), Diesel",
+      "year": null,
+      "transmission": "6 Speed AT",
+      "seating_capacity": 7,
+      "boot_space": "420 L",
+      "createdAt": "2025-01-29T15:12:30.992Z",
+      "updatedAt": "2025-01-29T15:12:30.992Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/safari/year-2024/ice/smart/stellar-frost/stellar-frost-left.png",
+        "alt": "Tata Safari base"
+      },
+      "engine": {
+        "engine_type": "Diesel",
+        "capacity": "1956 cc",
+        "power": "170 HP",
+        "torque": "350 Nm"
+      },
+      "dimensions": {
+        "length": "4668 mm",
+        "width": "1922 mm",
+        "height": "1795 mm",
+        "wheelbase": "2741 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹15,49,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "679a465b1ef6c49e458b0891",
+      "brand": "Tata",
+      "model": "Safari",
+      "variant": "Smart, Diesel",
+      "year": null,
+      "transmission": "6 Speed MT",
+      "seating_capacity": 7,
+      "boot_space": "420 L",
+      "createdAt": "2025-01-29T15:16:43.342Z",
+      "updatedAt": "2025-01-29T15:16:43.342Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/curvv/year-2024/ice/curvv-creative-1-5/flame-red/main-images/flame-red-left.png",
+        "alt": "Tata Curvv red"
+      },
+      "engine": {
+        "engine_type": "Petrol",
+        "capacity": "1199 cc",
+        "power": "88.2 KW",
+        "torque": "170 Nm"
+      },
+      "dimensions": {
+        "length": "4308 mm",
+        "width": "1810 mm",
+        "height": "1630 mm",
+        "wheelbase": "2560 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹13,86,990"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "679a47a41ef6c49e458b0894",
+      "brand": "Tata",
+      "model": "Curvv",
+      "variant": "Creative DCA 1.2, Petrol",
+      "year": null,
+      "transmission": "7 Speed DCA",
+      "seating_capacity": 5,
+      "boot_space": "500 L",
+      "createdAt": "2025-01-29T15:22:12.144Z",
+      "updatedAt": "2025-01-29T15:22:12.144Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Creta/Highlights/mob/cretagalleryb2.jpg",
+        "alt": "Hyundai Creta 2024"
+      },
+      "engine": {
+        "engine_type": "Diesel",
+        "capacity": "1493 cc",
+        "power": "85.4 kW",
+        "torque": "250 Nm"
+      },
+      "dimensions": {
+        "length": "4330 mm",
+        "width": "1790 mm",
+        "height": "1635 mm",
+        "wheelbase": "2610 mm"
+      },
+      "price": {
+        "city": "Bengaluru",
+        "ex_showroom": "₹20,14,900"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "679fd67c44724ba7c3c44505",
+      "brand": "Hyundai",
+      "model": "Creta",
+      "variant": "SX (O) Diesel AT",
+      "year": 2024,
+      "transmission": "6 Speed Automatic",
+      "seating_capacity": 5,
+      "boot_space": "433 L",
+      "createdAt": "2025-02-02T20:33:00.455Z",
+      "updatedAt": "2025-02-02T20:33:00.455Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://imgd.aeplcdn.com/1056x594/n/yxvneab_1652039.jpg?q=80&wm=1",
+        "alt": "Hyundai Verna Red 2023"
+      },
+      "engine": {
+        "engine_type": "1.5 l Turbo GDi Petrol",
+        "capacity": "1482 cc",
+        "power": "160 PS",
+        "torque": "253 Nm"
+      },
+      "dimensions": {
+        "length": "4535 mm",
+        "width": "1765 mm",
+        "height": "1475 mm",
+        "wheelbase": "2670 mm"
+      },
+      "price": {
+        "ex_showroom": "₹17,54,800",
+        "city": "Bengaluru"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": 5,
+          "child": 5
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67a6263764f890a292633b43",
+      "brand": "Hyundai",
+      "model": "Verna",
+      "variant": "1.5 l Turbo GDi Petrol 7-Speed DCT SX (O) Dual tone",
+      "year": 2023,
+      "transmission": "7-Speed DCT",
+      "seating_capacity": 5,
+      "boot_space": "528 L",
+      "createdAt": "2025-02-07T15:26:47.569Z",
+      "updatedAt": "2025-02-07T15:26:47.569Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Highlights/pc/i20-n-line3pc.jpg",
+        "alt": "Hyundai i20 N Line Red 2023"
+      },
+      "engine": {
+        "engine_type": "1.0 l Turbo GDi Petrol",
+        "capacity": "998 cc",
+        "power": "120 PS",
+        "torque": "172 Nm"
+      },
+      "dimensions": {
+        "length": "3995 mm",
+        "width": "1775 mm",
+        "height": "1505 mm",
+        "wheelbase": "2580 mm"
+      },
+      "price": {
+        "ex_showroom": "₹12,52,400",
+        "city": "Bengaluru"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": 3,
+          "child": 2
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67a7aa43507516b878ffa42c",
+      "brand": "Hyundai",
+      "model": "i20 N Line",
+      "variant": "1.0 l Turbo GDi Petrol 7-Speed DCT N8",
+      "year": 2023,
+      "transmission": "7-Speed DCT",
+      "seating_capacity": 5,
+      "boot_space": "311 L",
+      "createdAt": "2025-02-08T19:02:27.080Z",
+      "updatedAt": "2025-02-08T19:02:27.080Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/venue-n-line/highlights/Gallery_1120x600_6.jpg",
+        "alt": "Hyundai Venue N Line Blue 2023"
+      },
+      "engine": {
+        "engine_type": "1.0 l Turbo GDi Petrol",
+        "capacity": "998 cc",
+        "power": "120 PS",
+        "torque": "172 Nm"
+      },
+      "dimensions": {
+        "length": "3995 mm",
+        "width": "1770 mm",
+        "height": "1617 mm",
+        "wheelbase": "2500 mm"
+      },
+      "price": {
+        "ex_showroom": "₹13,96,800",
+        "city": "Bengaluru"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": 3,
+          "child": 2
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67a7ab44507516b878ffa42e",
+      "brand": "Hyundai",
+      "model": "Venue N Line",
+      "variant": "1.0 l Turbo GDi Petrol 7-Speed DCT N8",
+      "year": 2023,
+      "transmission": "7-Speed DCT",
+      "seating_capacity": 5,
+      "boot_space": "350 L",
+      "createdAt": "2025-02-08T19:06:44.071Z",
+      "updatedAt": "2025-02-08T19:06:44.071Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://imgd.aeplcdn.com/664x374/n/cw/ec/168697/creta-n-line-exterior-right-front-three-quarter-26.jpeg?isig=0&q=80",
+        "alt": "Hyundai Creta N Line 2023"
+      },
+      "engine": {
+        "engine_type": "1.5 l Turbo GDi Petrol",
+        "capacity": "1482 cc",
+        "power": "158 bhp",
+        "torque": "253 Nm"
+      },
+      "dimensions": {
+        "length": "4330 mm",
+        "width": "1790 mm",
+        "height": "1635 mm",
+        "wheelbase": "2610 mm"
+      },
+      "price": {
+        "ex_showroom": "₹19,45,300",
+        "city": "Bengaluru"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67a7abf9507516b878ffa430",
+      "brand": "Hyundai",
+      "model": "Creta N Line",
+      "variant": "1.5 l Turbo GDi Petrol 6-Speed Manual N8",
+      "year": 2023,
+      "transmission": "6-Speed Manual",
+      "seating_capacity": 5,
+      "boot_space": "433 L",
+      "createdAt": "2025-02-08T19:09:45.436Z",
+      "updatedAt": "2025-02-08T19:09:45.436Z",
+      "__v": 0
+    },
+    {
+      "img": {
+        "url": "https://imgd.aeplcdn.com/664x374/n/cw/ec/157825/alcazar-facelift-exterior-right-front-three-quarter-10.jpeg?isig=0&q=80",
+        "alt": "Hyundai Alcazar 2023"
+      },
+      "engine": {
+        "engine_type": "1.5 l Turbo GDi Petrol",
+        "capacity": "1482 cc",
+        "power": "160 PS",
+        "torque": "253 Nm"
+      },
+      "dimensions": {
+        "length": "4500 mm",
+        "width": "1790 mm",
+        "height": "1675 mm",
+        "wheelbase": "2760 mm"
+      },
+      "price": {
+        "ex_showroom": "₹20,25,100",
+        "city": "Bengaluru"
+      },
+      "safety": {
+        "globalncap": {
+          "adult": null,
+          "child": null
+        },
+        "bharatncap": {
+          "adult": null,
+          "child": null
+        }
+      },
+      "_id": "67a7ac9b507516b878ffa433",
+      "brand": "Hyundai",
+      "model": "Alcazar",
+      "variant": "1.5 l Turbo GDi Petrol 7-Speed DCT Signature (O) Dual Tone",
+      "year": 2023,
+      "transmission": "7-Speed DCT",
+      "seating_capacity": 6,
+      "boot_space": "180 L",
+      "createdAt": "2025-02-08T19:12:27.979Z",
+      "updatedAt": "2025-02-08T19:12:27.979Z",
+      "__v": 0
     }
-  },
-  {
-    "brand": "Tata",
-    "model": "Harrier",
-    "variant": "Fearless + DK (AT), Diesel",
-    "year": 2023,
-    "engine": {
-      "engine_type": "Diesel",
-      "capacity": "1956 cc",
-      "power": "170 HP",
-      "torque": "350 Nm"
-    },
-    "transmission": "6 Speed AT",
-    "dimensions": {
-      "length": "4605 mm",
-      "width": "1922 mm",
-      "height": "1718 mm",
-      "wheelbase": "2741 mm"
-    },
-    "seating_capacity": 5,
-    "boot_space": "445 L",
-    "price": {
-      "ex_showroom": "₹26,24,990"
-    },
-    "img": {
-      "url": "https://cars.tatamotors.com/content/dam/tml/pv/products/harrier/year-2024/ice/fearless-plus-dt-mt/lunar-white/main-images/lunar-white-left.png",
-      "alt": "Tata Harrier lunar white"
-    }
-  }
-]
+  ],
+  "total": 12
+}
