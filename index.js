@@ -11,10 +11,6 @@ const cors = require("cors");
 dotenv.config();
 connectDb();
 
-cron.schedule("*/15 * * * *", () => {
-  pingServer();
-});
-
 app.use(cors({ origin: "*" }));
 
 app.use(bodyParser.json());
